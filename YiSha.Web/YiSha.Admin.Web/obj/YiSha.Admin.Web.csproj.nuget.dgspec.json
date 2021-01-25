@@ -1,0 +1,1306 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Web\\YiSha.Admin.Web\\YiSha.Admin.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.AutoJob\\YiSha.Business.AutoJob.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.AutoJob\\YiSha.Business.AutoJob.csproj",
+        "projectName": "YiSha.Business.AutoJob",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.AutoJob\\YiSha.Business.AutoJob.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.AutoJob\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business\\YiSha.Business.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business\\YiSha.Business.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Service\\YiSha.Service.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Service\\YiSha.Service.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.Cache\\YiSha.Business.Cache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.Cache\\YiSha.Business.Cache.csproj",
+        "projectName": "YiSha.Business.Cache",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.Cache\\YiSha.Business.Cache.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.Cache\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Service\\YiSha.Service.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Service\\YiSha.Service.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Factory\\YiSha.Cache.Factory.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Factory\\YiSha.Cache.Factory.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business\\YiSha.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business\\YiSha.Business.csproj",
+        "projectName": "YiSha.Business",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business\\YiSha.Business.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.Cache\\YiSha.Business.Cache.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.Cache\\YiSha.Business.Cache.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Service\\YiSha.Service.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Service\\YiSha.Service.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Enum\\YiSha.Enum.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Enum\\YiSha.Enum.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.CodeGenerator\\YiSha.CodeGenerator.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.CodeGenerator\\YiSha.CodeGenerator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Service\\YiSha.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Service\\YiSha.Service.csproj",
+        "projectName": "YiSha.Service",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Service\\YiSha.Service.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.Repository\\YiSha.Data.Repository.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.Repository\\YiSha.Data.Repository.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Enum\\YiSha.Enum.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Enum\\YiSha.Enum.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Model\\YiSha.Model.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Model\\YiSha.Model.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.IdGenerator\\YiSha.IdGenerator.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.IdGenerator\\YiSha.IdGenerator.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Factory\\YiSha.Cache.Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Factory\\YiSha.Cache.Factory.csproj",
+        "projectName": "YiSha.Cache.Factory",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Factory\\YiSha.Cache.Factory.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Factory\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Interface\\YiSha.Cache.Interface.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Interface\\YiSha.Cache.Interface.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.MemoryCache\\YiSha.MemoryCache.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.MemoryCache\\YiSha.MemoryCache.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Interface\\YiSha.Cache.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Interface\\YiSha.Cache.Interface.csproj",
+        "projectName": "YiSha.Cache.Interface",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Interface\\YiSha.Cache.Interface.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.MemoryCache\\YiSha.MemoryCache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.MemoryCache\\YiSha.MemoryCache.csproj",
+        "projectName": "YiSha.MemoryCache",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.MemoryCache\\YiSha.MemoryCache.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.MemoryCache\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Interface\\YiSha.Cache.Interface.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Interface\\YiSha.Cache.Interface.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.EF\\YiSha.Data.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.EF\\YiSha.Data.EF.csproj",
+        "projectName": "YiSha.Data.EF",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.EF\\YiSha.Data.EF.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data\\YiSha.Data.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data\\YiSha.Data.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[2.18.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.Repository\\YiSha.Data.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.Repository\\YiSha.Data.Repository.csproj",
+        "projectName": "YiSha.Data.Repository",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.Repository\\YiSha.Data.Repository.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.EF\\YiSha.Data.EF.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.EF\\YiSha.Data.EF.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data\\YiSha.Data.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data\\YiSha.Data.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[2.18.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data\\YiSha.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data\\YiSha.Data.csproj",
+        "projectName": "YiSha.Data",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data\\YiSha.Data.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[2.18.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj",
+        "projectName": "YiSha.Entity",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.IdGenerator\\YiSha.IdGenerator.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.IdGenerator\\YiSha.IdGenerator.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Web\\YiSha.Web.Code\\YiSha.Web.Code.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Web\\YiSha.Web.Code\\YiSha.Web.Code.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Enum\\YiSha.Enum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Enum\\YiSha.Enum.csproj",
+        "projectName": "YiSha.Enum",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Enum\\YiSha.Enum.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Enum\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Model\\YiSha.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Model\\YiSha.Model.csproj",
+        "projectName": "YiSha.Model",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Model\\YiSha.Model.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.CodeGenerator\\YiSha.CodeGenerator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.CodeGenerator\\YiSha.CodeGenerator.csproj",
+        "projectName": "YiSha.CodeGenerator",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.CodeGenerator\\YiSha.CodeGenerator.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.CodeGenerator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.Cache\\YiSha.Business.Cache.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.Cache\\YiSha.Business.Cache.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.Repository\\YiSha.Data.Repository.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.Repository\\YiSha.Data.Repository.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.IdGenerator\\YiSha.IdGenerator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.IdGenerator\\YiSha.IdGenerator.csproj",
+        "projectName": "YiSha.IdGenerator",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.IdGenerator\\YiSha.IdGenerator.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.IdGenerator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj",
+        "projectName": "YiSha.Util",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Enum\\YiSha.Enum.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Enum\\YiSha.Enum.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Web\\YiSha.Admin.Web\\YiSha.Admin.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Web\\YiSha.Admin.Web\\YiSha.Admin.Web.csproj",
+        "projectName": "YiSha.Admin.Web",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Web\\YiSha.Admin.Web\\YiSha.Admin.Web.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Web\\YiSha.Admin.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.AutoJob\\YiSha.Business.AutoJob.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business.AutoJob\\YiSha.Business.AutoJob.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business\\YiSha.Business.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Business\\YiSha.Business\\YiSha.Business.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.EF\\YiSha.Data.EF.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.EF\\YiSha.Data.EF.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Entity\\YiSha.Entity.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Model\\YiSha.Model.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Entity\\YiSha.Model\\YiSha.Model.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.CodeGenerator\\YiSha.CodeGenerator.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.CodeGenerator\\YiSha.CodeGenerator.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Web\\YiSha.Web.Code\\YiSha.Web.Code.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Web\\YiSha.Web.Code\\YiSha.Web.Code.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "BuildBundlerMinifier": {
+              "target": "Package",
+              "version": "[2.8.391, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[2.18.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Web\\YiSha.Web.Code\\YiSha.Web.Code.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Web\\YiSha.Web.Code\\YiSha.Web.Code.csproj",
+        "projectName": "YiSha.Web.Code",
+        "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Web\\YiSha.Web.Code\\YiSha.Web.Code.csproj",
+        "packagesPath": "C:\\Users\\liuchao\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Web\\YiSha.Web.Code\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\liuchao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Factory\\YiSha.Cache.Factory.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Cache\\YiSha.Cache.Factory\\YiSha.Cache.Factory.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.Repository\\YiSha.Data.Repository.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Data\\YiSha.Data.Repository\\YiSha.Data.Repository.csproj"
+              },
+              "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj": {
+                "projectPath": "D:\\BaiduNetdiskDownload\\网络\\YiShaAdmin.v2.2\\YiSha.Util\\YiSha.Util\\YiSha.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+2019-10-30 15:22:47
+程序启动
+ContentRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-30 15:22:51
+Authentication to host 'localhost' for user 'root' using method 'caching_sha2_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-30 15:24:06
+程序启动
+ContentRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-30 15:25:48
+Reading from the stream has failed.
+远程主机强迫关闭了一个现有的连接。
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-30 15:36:08
+程序启动
+ContentRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-30 15:51:42
+程序启动
+ContentRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-30 17:38:57
+程序启动
+ContentRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+

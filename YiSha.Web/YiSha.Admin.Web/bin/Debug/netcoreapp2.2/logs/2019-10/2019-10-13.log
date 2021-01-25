@@ -1,0 +1,107 @@
+2019-10-13 17:12:24
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-13 17:12:42
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-13 17:15:52
+Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at YiSha.Service.SystemManage.LogLoginService.GetPageList(LogLoginListParam param, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Service\SystemManage\LogLoginService.cs:line 34
+   at YiSha.Business.SystemManage.LogLoginBLL.GetPageList(LogLoginListParam param, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Business\SystemManage\LogLoginBLL.cs:line 31
+   at YiSha.Admin.Web.Areas.SystemManage.Controllers.LogLoginController.GetPageListJson(LogLoginListParam param, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\SystemManage\Controllers\LogLoginController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-13 17:17:50
+Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at YiSha.Service.SystemManage.LogLoginService.GetPageList(LogLoginListParam param, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Service\SystemManage\LogLoginService.cs:line 34
+   at YiSha.Business.SystemManage.LogLoginBLL.GetPageList(LogLoginListParam param, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Business\SystemManage\LogLoginBLL.cs:line 31
+   at YiSha.Admin.Web.Areas.SystemManage.Controllers.LogLoginController.GetPageListJson(LogLoginListParam param, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\SystemManage\Controllers\LogLoginController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-13 17:19:19
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-13 17:20:08
+Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at YiSha.Service.SystemManage.LogApiService.GetPageList(LogApiListParam param, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Service\SystemManage\LogApiService.cs:line 34
+   at YiSha.Business.SystemManage.LogApiBLL.GetPageList(LogApiListParam param, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Business\SystemManage\LogApiBLL.cs:line 33
+   at YiSha.Admin.Web.Areas.SystemManage.Controllers.LogApiController.GetPageListJson(LogApiListParam param, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\SystemManage\Controllers\LogApiController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-13 17:24:03
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-13 17:32:38
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-13 17:43:09
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-13 17:44:00
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-13 17:47:59
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+

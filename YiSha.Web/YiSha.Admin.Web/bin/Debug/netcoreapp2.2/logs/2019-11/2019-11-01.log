@@ -1,0 +1,935 @@
+2019-11-01 20:48:26
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 20:49:00
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 20:49:08
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 20:49:21
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 20:49:24
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 20:49:35
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 20:49:38
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 20:49:41
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 20:49:43
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 20:49:57
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 20:50:05
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 20:50:13
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 20:50:19
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 20:50:22
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 20:52:25
+Object reference not set to an instance of an object.
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token)
+
+
+2019-11-01 20:52:35
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token)
+
+
+2019-11-01 20:55:09
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token)
+
+
+2019-11-01 20:55:13
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token)
+
+
+2019-11-01 20:55:36
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token)
+
+
+2019-11-01 20:56:54
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 20:57:21
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 38
+
+
+2019-11-01 20:57:25
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 38
+
+
+2019-11-01 20:58:05
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 38
+
+
+2019-11-01 20:58:39
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 20:59:15
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 38
+
+
+2019-11-01 20:59:22
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 38
+
+
+2019-11-01 20:59:28
+Unable to connect to any of the specified MySQL hosts.
+No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 427
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 38
+
+
+2019-11-01 21:01:47
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:19:02
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:19:42
+Unknown column 'TableKeyName' in 'order clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at YiSha.Data.DbHelper.ExecuteReadeAsync(CommandType cmdType, String strSql, DbParameter[] dbParameter) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data\DbHelper.cs:line 75
+   at YiSha.Data.EF.MySqlDatabase.FindList[T](String strSql, DbParameter[] dbParameter, String orderField, Boolean isAsc, Int32 pageSize, Int32 pageIndex) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 345
+   at YiSha.Data.Repository.Repository.FindList[T](String strSql, DbParameter[] dbParameter, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 177
+   at YiSha.Service.SystemManage.DatabaseTableMySqlService.GetTablePageList(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Service\SystemManage\DatabaseTableMySqlService.cs:line 47
+   at YiSha.Business.SystemManage.DatabaseTableBLL.GetTablePageList(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Business\SystemManage\DatabaseTableBLL.cs:line 56
+   at YiSha.Admin.Web.Areas.SystemManage.Controllers.DatabaseController.GetTablePageListJson(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\SystemManage\Controllers\DatabaseController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 21:19:52
+Unknown column 'TableKeyName' in 'order clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at YiSha.Data.DbHelper.ExecuteReadeAsync(CommandType cmdType, String strSql, DbParameter[] dbParameter) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data\DbHelper.cs:line 75
+   at YiSha.Data.EF.MySqlDatabase.FindList[T](String strSql, DbParameter[] dbParameter, String orderField, Boolean isAsc, Int32 pageSize, Int32 pageIndex) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 345
+   at YiSha.Data.Repository.Repository.FindList[T](String strSql, DbParameter[] dbParameter, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 177
+   at YiSha.Service.SystemManage.DatabaseTableMySqlService.GetTablePageList(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Service\SystemManage\DatabaseTableMySqlService.cs:line 47
+   at YiSha.Business.SystemManage.DatabaseTableBLL.GetTablePageList(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Business\SystemManage\DatabaseTableBLL.cs:line 56
+   at YiSha.Admin.Web.Areas.SystemManage.Controllers.DatabaseController.GetTablePageListJson(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\SystemManage\Controllers\DatabaseController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 21:19:53
+Unknown column 'TableKeyName' in 'order clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at YiSha.Data.DbHelper.ExecuteReadeAsync(CommandType cmdType, String strSql, DbParameter[] dbParameter) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data\DbHelper.cs:line 75
+   at YiSha.Data.EF.MySqlDatabase.FindList[T](String strSql, DbParameter[] dbParameter, String orderField, Boolean isAsc, Int32 pageSize, Int32 pageIndex) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 345
+   at YiSha.Data.Repository.Repository.FindList[T](String strSql, DbParameter[] dbParameter, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 177
+   at YiSha.Service.SystemManage.DatabaseTableMySqlService.GetTablePageList(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Service\SystemManage\DatabaseTableMySqlService.cs:line 47
+   at YiSha.Business.SystemManage.DatabaseTableBLL.GetTablePageList(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Business\SystemManage\DatabaseTableBLL.cs:line 56
+   at YiSha.Admin.Web.Areas.SystemManage.Controllers.DatabaseController.GetTablePageListJson(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\SystemManage\Controllers\DatabaseController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 21:20:03
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:21:34
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:21:47
+Unknown column 'TableKeyName' in 'order clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at YiSha.Data.DbHelper.ExecuteReadeAsync(CommandType cmdType, String strSql, DbParameter[] dbParameter) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data\DbHelper.cs:line 75
+   at YiSha.Data.EF.MySqlDatabase.FindList[T](String strSql, DbParameter[] dbParameter, String orderField, Boolean isAsc, Int32 pageSize, Int32 pageIndex) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 345
+   at YiSha.Data.Repository.Repository.FindList[T](String strSql, DbParameter[] dbParameter, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 177
+   at YiSha.Service.SystemManage.DatabaseTableMySqlService.GetTablePageList(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Service\SystemManage\DatabaseTableMySqlService.cs:line 47
+   at YiSha.Business.SystemManage.DatabaseTableBLL.GetTablePageList(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Business\SystemManage\DatabaseTableBLL.cs:line 56
+   at YiSha.Admin.Web.Areas.SystemManage.Controllers.DatabaseController.GetTablePageListJson(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\SystemManage\Controllers\DatabaseController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-11-01 21:39:07
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:40:28
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:42:04
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:43:24
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:44:01
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:46:31
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:49:34
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:50:00
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:50:45
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:51:50
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:53:31
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:55:26
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 21:58:16
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 22:07:13
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 22:12:47
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 22:22:34
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 22:25:22
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 22:35:45
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 22:35:52
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 22:36:23
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 22:38:49
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-01 22:57:32
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+

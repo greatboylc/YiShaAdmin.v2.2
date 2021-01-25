@@ -1,0 +1,9 @@
+E:\YiSha\YiShaAdmin\YiSha.Entity\YiSha.Enum\bin\Release\netcoreapp2.2\YiSha.Enum.deps.json
+E:\YiSha\YiShaAdmin\YiSha.Entity\YiSha.Enum\bin\Release\netcoreapp2.2\YiSha.Enum.dll
+E:\YiSha\YiShaAdmin\YiSha.Entity\YiSha.Enum\bin\Release\netcoreapp2.2\YiSha.Enum.pdb
+E:\YiSha\YiShaAdmin\YiSha.Entity\YiSha.Enum\obj\Release\netcoreapp2.2\YiSha.Enum.csprojAssemblyReference.cache
+E:\YiSha\YiShaAdmin\YiSha.Entity\YiSha.Enum\obj\Release\netcoreapp2.2\YiSha.Enum.csproj.CoreCompileInputs.cache
+E:\YiSha\YiShaAdmin\YiSha.Entity\YiSha.Enum\obj\Release\netcoreapp2.2\YiSha.Enum.AssemblyInfoInputs.cache
+E:\YiSha\YiShaAdmin\YiSha.Entity\YiSha.Enum\obj\Release\netcoreapp2.2\YiSha.Enum.AssemblyInfo.cs
+E:\YiSha\YiShaAdmin\YiSha.Entity\YiSha.Enum\obj\Release\netcoreapp2.2\YiSha.Enum.dll
+E:\YiSha\YiShaAdmin\YiSha.Entity\YiSha.Enum\obj\Release\netcoreapp2.2\YiSha.Enum.pdb

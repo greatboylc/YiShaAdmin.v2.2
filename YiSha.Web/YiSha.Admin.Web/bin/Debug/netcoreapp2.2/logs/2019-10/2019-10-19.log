@@ -1,0 +1,52 @@
+2019-10-19 00:00:25
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-19 00:11:57
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-19 00:12:51
+The instance of entity type 'DataDictEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode node, Boolean force)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode node, TState state, Func`3 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState entityState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Attach[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Attach(TEntity entity)
+   at YiSha.Data.EF.MySqlDatabase.Update[T](T entity) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 238
+   at YiSha.Data.Repository.Repository.Update[T](T entity) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 108
+   at YiSha.Service.SystemManage.DataDictService.SaveForm(DataDictEntity entity) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Service\SystemManage\DataDictService.cs:line 92
+   at YiSha.Business.SystemManage.DataDictBLL.SaveForm(DataDictEntity entity) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Business\SystemManage\DataDictBLL.cs:line 97
+   at YiSha.Admin.Web.Areas.SystemManage.Controllers.DataDictController.SaveFormJson(DataDictEntity entity) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\SystemManage\Controllers\DataDictController.cs:line 81
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-19 00:15:45
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+

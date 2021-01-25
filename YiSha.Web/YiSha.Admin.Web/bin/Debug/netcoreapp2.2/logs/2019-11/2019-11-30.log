@@ -1,0 +1,30 @@
+2019-11-30 11:07:24
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-30 11:09:40
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-30 11:39:38
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-11-30 11:44:34
+Incorrect Content-Type: 
+   at Microsoft.AspNetCore.Http.Features.FormFeature.ReadForm()
+   at Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest.get_Form()
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 78
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+

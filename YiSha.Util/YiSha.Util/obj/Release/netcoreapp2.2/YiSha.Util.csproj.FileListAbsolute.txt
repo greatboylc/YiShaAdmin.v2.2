@@ -1,0 +1,14 @@
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\bin\Release\netcoreapp2.2\YiSha.Util.deps.json
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\bin\Release\netcoreapp2.2\YiSha.Util.runtimeconfig.json
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\bin\Release\netcoreapp2.2\YiSha.Util.runtimeconfig.dev.json
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\bin\Release\netcoreapp2.2\YiSha.Util.dll
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\bin\Release\netcoreapp2.2\YiSha.Util.pdb
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\bin\Release\netcoreapp2.2\YiSha.Enum.dll
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\bin\Release\netcoreapp2.2\YiSha.Enum.pdb
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\obj\Release\netcoreapp2.2\YiSha.Util.csprojAssemblyReference.cache
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\obj\Release\netcoreapp2.2\YiSha.Util.csproj.CoreCompileInputs.cache
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\obj\Release\netcoreapp2.2\YiSha.Util.AssemblyInfoInputs.cache
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\obj\Release\netcoreapp2.2\YiSha.Util.AssemblyInfo.cs
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\obj\Release\netcoreapp2.2\YiSha.Util.csproj.CopyComplete
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\obj\Release\netcoreapp2.2\YiSha.Util.dll
+E:\YiSha\YiShaAdmin\YiSha.Util\YiSha.Util\obj\Release\netcoreapp2.2\YiSha.Util.pdb

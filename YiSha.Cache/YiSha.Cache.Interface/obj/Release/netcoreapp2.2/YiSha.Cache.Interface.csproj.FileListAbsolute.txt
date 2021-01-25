@@ -1,0 +1,9 @@
+E:\YiSha\YiShaAdmin\YiSha.Cache\YiSha.Cache.Interface\bin\Release\netcoreapp2.2\YiSha.Cache.Interface.deps.json
+E:\YiSha\YiShaAdmin\YiSha.Cache\YiSha.Cache.Interface\bin\Release\netcoreapp2.2\YiSha.Cache.Interface.dll
+E:\YiSha\YiShaAdmin\YiSha.Cache\YiSha.Cache.Interface\bin\Release\netcoreapp2.2\YiSha.Cache.Interface.pdb
+E:\YiSha\YiShaAdmin\YiSha.Cache\YiSha.Cache.Interface\obj\Release\netcoreapp2.2\YiSha.Cache.Interface.csprojAssemblyReference.cache
+E:\YiSha\YiShaAdmin\YiSha.Cache\YiSha.Cache.Interface\obj\Release\netcoreapp2.2\YiSha.Cache.Interface.csproj.CoreCompileInputs.cache
+E:\YiSha\YiShaAdmin\YiSha.Cache\YiSha.Cache.Interface\obj\Release\netcoreapp2.2\YiSha.Cache.Interface.AssemblyInfoInputs.cache
+E:\YiSha\YiShaAdmin\YiSha.Cache\YiSha.Cache.Interface\obj\Release\netcoreapp2.2\YiSha.Cache.Interface.AssemblyInfo.cs
+E:\YiSha\YiShaAdmin\YiSha.Cache\YiSha.Cache.Interface\obj\Release\netcoreapp2.2\YiSha.Cache.Interface.dll
+E:\YiSha\YiShaAdmin\YiSha.Cache\YiSha.Cache.Interface\obj\Release\netcoreapp2.2\YiSha.Cache.Interface.pdb

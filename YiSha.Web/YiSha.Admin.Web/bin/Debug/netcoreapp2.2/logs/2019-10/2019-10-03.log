@@ -1,0 +1,399 @@
+2019-10-03 00:06:55
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 00:35:59
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 00:36:17
+Object reference not set to an instance of an object.
+   at YiSha.CodeGenerator.Template.SingleTableTemplate.BuildIndex(BaseConfigModel baseConfigModel) in E:\yisha soft\YiShaAdmin\YiSha.Util\YiSha.CodeGenerator\Template\SingleTableTemplate.cs:line 458
+   at YiSha.Admin.Web.Areas.ToolManage.Controllers.CodeGeneratorController.CodePreviewJson(BaseConfigModel baseConfig) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\ToolManage\Controllers\CodeGeneratorController.cs:line 121
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-03 00:36:37
+Error reading JObject from JsonReader. Current JsonReader item is not an object: Undefined. Path '', line 1, position 9.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at YiSha.Util.JsonHelper.ToJObject(String Json) in E:\yisha soft\YiShaAdmin\YiSha.Util\YiSha.Util\JsonHelper.cs:line 21
+   at YiSha.CodeGenerator.Template.SingleTableTemplate.CreateCode(BaseConfigModel baseConfigModel, String code) in E:\yisha soft\YiShaAdmin\YiSha.Util\YiSha.CodeGenerator\Template\SingleTableTemplate.cs:line 780
+   at YiSha.Admin.Web.Areas.ToolManage.Controllers.CodeGeneratorController.CodeGenerateJson(BaseConfigModel baseConfig, String Code) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\ToolManage\Controllers\CodeGeneratorController.cs:line 154
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-03 00:36:41
+Object reference not set to an instance of an object.
+   at YiSha.CodeGenerator.Template.SingleTableTemplate.BuildIndex(BaseConfigModel baseConfigModel) in E:\yisha soft\YiShaAdmin\YiSha.Util\YiSha.CodeGenerator\Template\SingleTableTemplate.cs:line 458
+   at YiSha.Admin.Web.Areas.ToolManage.Controllers.CodeGeneratorController.CodePreviewJson(BaseConfigModel baseConfig) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\ToolManage\Controllers\CodeGeneratorController.cs:line 121
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-03 00:36:49
+Object reference not set to an instance of an object.
+   at YiSha.CodeGenerator.Template.SingleTableTemplate.BuildIndex(BaseConfigModel baseConfigModel) in E:\yisha soft\YiShaAdmin\YiSha.Util\YiSha.CodeGenerator\Template\SingleTableTemplate.cs:line 458
+   at YiSha.Admin.Web.Areas.ToolManage.Controllers.CodeGeneratorController.CodePreviewJson(BaseConfigModel baseConfig) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\ToolManage\Controllers\CodeGeneratorController.cs:line 121
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-03 00:37:01
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 00:37:15
+Error reading JObject from JsonReader. Current JsonReader item is not an object: Undefined. Path '', line 1, position 9.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at YiSha.Util.JsonHelper.ToJObject(String Json) in E:\yisha soft\YiShaAdmin\YiSha.Util\YiSha.Util\JsonHelper.cs:line 21
+   at YiSha.CodeGenerator.Template.SingleTableTemplate.CreateCode(BaseConfigModel baseConfigModel, String code) in E:\yisha soft\YiShaAdmin\YiSha.Util\YiSha.CodeGenerator\Template\SingleTableTemplate.cs:line 780
+   at YiSha.Admin.Web.Areas.ToolManage.Controllers.CodeGeneratorController.CodeGenerateJson(BaseConfigModel baseConfig, String Code) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\ToolManage\Controllers\CodeGeneratorController.cs:line 154
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-03 00:38:47
+Object reference not set to an instance of an object.
+   at YiSha.CodeGenerator.Template.SingleTableTemplate.BuildIndex(BaseConfigModel baseConfigModel) in E:\yisha soft\YiShaAdmin\YiSha.Util\YiSha.CodeGenerator\Template\SingleTableTemplate.cs:line 458
+   at YiSha.Admin.Web.Areas.ToolManage.Controllers.CodeGeneratorController.CodePreviewJson(BaseConfigModel baseConfig) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\ToolManage\Controllers\CodeGeneratorController.cs:line 121
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-03 00:38:55
+Error reading JObject from JsonReader. Current JsonReader item is not an object: Undefined. Path '', line 1, position 9.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at YiSha.Util.JsonHelper.ToJObject(String Json) in E:\yisha soft\YiShaAdmin\YiSha.Util\YiSha.Util\JsonHelper.cs:line 21
+   at YiSha.CodeGenerator.Template.SingleTableTemplate.CreateCode(BaseConfigModel baseConfigModel, String code) in E:\yisha soft\YiShaAdmin\YiSha.Util\YiSha.CodeGenerator\Template\SingleTableTemplate.cs:line 780
+   at YiSha.Admin.Web.Areas.ToolManage.Controllers.CodeGeneratorController.CodeGenerateJson(BaseConfigModel baseConfig, String Code) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\ToolManage\Controllers\CodeGeneratorController.cs:line 154
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-03 00:40:17
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 10:00:43
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 10:01:52
+The entity type 'long[]' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Attach[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Attach(TEntity entity)
+   at YiSha.Data.EF.MySqlDatabase.Delete[T](T entity) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 185
+   at YiSha.Data.Repository.Repository.Delete[T](T entity) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 83
+   at YiSha.Service.SystemManage.MenuService.DeleteForm(String ids) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Service\SystemManage\MenuService.cs:line 76
+   at YiSha.Business.SystemManage.MenuBLL.DeleteForm(String ids) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Business\SystemManage\MenuBLL.cs:line 114
+   at YiSha.Admin.Web.Areas.SystemManage.Controllers.MenuController.DeleteFormJson(String ids) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\SystemManage\Controllers\MenuController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-03 10:02:58
+The entity type 'long[]' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Attach[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Attach(TEntity entity)
+   at YiSha.Data.EF.MySqlDatabase.Delete[T](T entity) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 185
+   at YiSha.Data.Repository.Repository.Delete[T](T entity) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 83
+   at YiSha.Service.SystemManage.MenuService.DeleteForm(String ids) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Service\SystemManage\MenuService.cs:line 76
+   at YiSha.Business.SystemManage.MenuBLL.DeleteForm(String ids) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Business\SystemManage\MenuBLL.cs:line 114
+   at YiSha.Admin.Web.Areas.SystemManage.Controllers.MenuController.DeleteFormJson(String ids) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\SystemManage\Controllers\MenuController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-03 10:03:27
+The entity type 'long[]' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Attach[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Attach(TEntity entity)
+   at YiSha.Data.EF.MySqlDatabase.Delete[T](T entity) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 185
+   at YiSha.Data.Repository.Repository.Delete[T](T entity) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 83
+   at YiSha.Service.SystemManage.MenuService.DeleteForm(String ids) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Service\SystemManage\MenuService.cs:line 76
+   at YiSha.Business.SystemManage.MenuBLL.DeleteForm(String ids) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Business\SystemManage\MenuBLL.cs:line 114
+   at YiSha.Admin.Web.Areas.SystemManage.Controllers.MenuController.DeleteFormJson(String ids) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\SystemManage\Controllers\MenuController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-03 10:09:33
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 10:14:08
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 10:17:39
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 10:45:14
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 11:02:01
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 11:50:09
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 13:12:51
+Unknown column 'TableKeyName' in 'order clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at YiSha.Data.DbHelper.ExecuteReadeAsync(CommandType cmdType, String strSql, DbParameter[] dbParameter) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data\DbHelper.cs:line 75
+   at YiSha.Data.EF.MySqlDatabase.FindList[T](String strSql, DbParameter[] dbParameter, String orderField, Boolean isAsc, Int32 pageSize, Int32 pageIndex) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 343
+   at YiSha.Data.Repository.Repository.FindList[T](String strSql, DbParameter[] dbParameter, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 177
+   at YiSha.Service.SystemManage.DatabaseTableMySqlService.GetTablePageList(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Service\SystemManage\DatabaseTableMySqlService.cs:line 43
+   at YiSha.Business.SystemManage.DatabaseTableBLL.GetTablePageList(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Business\SystemManage\DatabaseTableBLL.cs:line 56
+   at YiSha.Admin.Web.Areas.SystemManage.Controllers.DatabaseController.GetTablePageListJson(String tableName, Pagination pagination) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\SystemManage\Controllers\DatabaseController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-03 13:40:04
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 13:42:41
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 15:59:36
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 16:03:52
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 16:14:16
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 16:17:33
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 16:20:27
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 16:27:14
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 16:29:44
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 16:31:07
+An error occurred while updating the entries. See the inner exception for details.
+Data too long for column 'area_code' at row 1
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at YiSha.Data.EF.MySqlDatabase.Commit() in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 65
+   at YiSha.Data.EF.MySqlDatabase.Update[T](T entity) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 255
+   at YiSha.Data.Repository.Repository.Update[T](T entity) in E:\yisha soft\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 108
+   at YiSha.Service.OrganizationManage.TestabcService.SaveForm(TestabcEntity entity) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Service\OrganizationManage\TestabcService.cs:line 57
+   at YiSha.Business.OrganizationManage.TestabcBLL.SaveForm(TestabcEntity entity) in E:\yisha soft\YiShaAdmin\YiSha.Business\YiSha.Business\OrganizationManage\TestabcBLL.cs:line 58
+   at YiSha.Admin.Web.Areas.OrganizationManage.Controllers.TestabcController.SaveFormJson(TestabcEntity entity) in E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\OrganizationManage\Controllers\TestabcController.cs:line 71
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-03 16:33:39
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 16:39:40
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 16:45:49
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 16:49:36
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-03 17:00:36
+程序启动
+ContentRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\yisha soft\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+

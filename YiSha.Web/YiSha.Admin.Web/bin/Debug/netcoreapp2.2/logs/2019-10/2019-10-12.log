@@ -1,0 +1,125 @@
+2019-10-12 17:00:18
+程序启动
+ContentRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-12 17:08:53
+Reading from the stream has failed.
+远程主机强迫关闭了一个现有的连接。
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Aggregate.cs:line 120
+   at YiSha.Data.EF.SqlQueryExtension.SqlQuery[T](DbContext db, String sql, Object[] parameters) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.EF\SqlQueryExtension.cs:line 18
+   at YiSha.Data.EF.MySqlDatabase.FindObject[T](String strSql) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 420
+   at YiSha.Data.Repository.Repository.FindObject[T](String strSql) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 242
+   at YiSha.Web.Code.DataRepository.GetUserByToken(String token) in E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Web.Code\DataRepository.cs:line 36
+   at YiSha.Web.Code.Operator.Current(String apiToken) in E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Web.Code\Operator.cs:line 112
+   at YiSha.Admin.Web.Controllers.BaseController.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Controllers\BaseController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-12 17:16:13
+程序启动
+ContentRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-12 17:40:18
+The entity type 'long[]' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Attach[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Attach(TEntity entity)
+   at YiSha.Data.EF.MySqlDatabase.Delete[T](T entity) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 185
+   at YiSha.Data.Repository.Repository.Delete[T](T entity) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 83
+   at YiSha.Service.OrganizationManage.PositionService.DeleteForm(String ids) in E:\YiSha\YiShaAdmin\YiSha.Business\YiSha.Service\OrganizationManage\PositionService.cs:line 79
+   at YiSha.Business.OrganizationManage.PositionBLL.DeleteForm(String ids) in E:\YiSha\YiShaAdmin\YiSha.Business\YiSha.Business\OrganizationManage\PositionBLL.cs:line 72
+   at YiSha.Admin.Web.Areas.OrganizationManage.Controllers.PositionController.DeleteFormJson(String ids) in E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\OrganizationManage\Controllers\PositionController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-12 17:40:26
+The entity type 'long[]' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Attach[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Attach(TEntity entity)
+   at YiSha.Data.EF.MySqlDatabase.Delete[T](T entity) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 185
+   at YiSha.Data.Repository.Repository.Delete[T](T entity) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 83
+   at YiSha.Service.OrganizationManage.PositionService.DeleteForm(String ids) in E:\YiSha\YiShaAdmin\YiSha.Business\YiSha.Service\OrganizationManage\PositionService.cs:line 79
+   at YiSha.Business.OrganizationManage.PositionBLL.DeleteForm(String ids) in E:\YiSha\YiShaAdmin\YiSha.Business\YiSha.Business\OrganizationManage\PositionBLL.cs:line 72
+   at YiSha.Admin.Web.Areas.OrganizationManage.Controllers.PositionController.DeleteFormJson(String ids) in E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\OrganizationManage\Controllers\PositionController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-12 17:40:37
+The entity type 'long[]' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Attach[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Attach(TEntity entity)
+   at YiSha.Data.EF.MySqlDatabase.Delete[T](T entity) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.EF\Database\MySqlDatabase.cs:line 185
+   at YiSha.Data.Repository.Repository.Delete[T](T entity) in E:\YiSha\YiShaAdmin\YiSha.Data\YiSha.Data.Repository\Repository.cs:line 83
+   at YiSha.Service.OrganizationManage.PositionService.DeleteForm(String ids) in E:\YiSha\YiShaAdmin\YiSha.Business\YiSha.Service\OrganizationManage\PositionService.cs:line 79
+   at YiSha.Business.OrganizationManage.PositionBLL.DeleteForm(String ids) in E:\YiSha\YiShaAdmin\YiSha.Business\YiSha.Business\OrganizationManage\PositionBLL.cs:line 72
+   at YiSha.Admin.Web.Areas.OrganizationManage.Controllers.PositionController.DeleteFormJson(String ids) in E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\Areas\OrganizationManage\Controllers\PositionController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+
+2019-10-12 17:43:44
+程序启动
+ContentRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
+2019-10-12 18:03:52
+程序启动
+ContentRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web
+WebRootPath:E:\YiSha\YiShaAdmin\YiSha.Web\YiSha.Admin.Web\wwwroot
+IsDevelopment:True
+
+
